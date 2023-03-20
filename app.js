@@ -1,12 +1,16 @@
 
 let costumer = prompt("Enter Your Name")
+
 let gender = prompt("Enter your gender")
+
+function g(gender) {
 
 while(gender !="male" &&  gender !="female"){
 
 gender = prompt("Please enter a correct gender")
 
 }
+
 if(gender == "male" ){
     alert("Welcome Mr. "+costumer )
 
@@ -17,6 +21,8 @@ alert("Welcome Ms. "+ costumer)
 else{
     alert("Welcome "+costumer)
 }
+}
+g(gender);
 
 let drink = prompt("What drink do you want ?", "Hot or Cold ?")
 
